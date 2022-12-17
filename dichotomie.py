@@ -7,8 +7,8 @@ def func(t):
 def average(x,y):
     return (x+y)/2
 
-x = float(input("Enter le nombre de la borne a :"))
-y = float(input("Enter le nombre de la borne b :"))
+x = 0.0
+y = 3.0
 precision = float(input("Donner la precision : "))
 for k in range(floor(log(y-x)-log(precision)/log(2))):
     if(func(x)*func(average(x,y))>0):
@@ -17,6 +17,16 @@ for k in range(floor(log(y-x)-log(precision)/log(2))):
             y = average(x,y)  
     else:
         result = average(x,y)  
-print(f"Alors resultat est = {result} ")                               
+print(f"Alors resultat est = {result} ") 
+    
+#plot the root of the function
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0,10,100)
+y = np.tan(x*x)-x
+plt.plot(x,y)
+plt.plot(1.5,0,'ro')
+plt.show()
+                        
 
                
