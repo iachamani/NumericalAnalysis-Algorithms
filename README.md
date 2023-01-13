@@ -1,4 +1,11 @@
 # NumericalAnalysis-Algorithms
-Numerical Analysis and some Algorithms implemented with Python and C Language
+is a comprehensive project that implements a variety of numerical methods commonly studied in the field of Numerical Analysis. The project is designed to provide a thorough understanding of these methods through practical implementation and usage.
+
+The project includes a wide range of numerical methods, including Root Finding, Interpolation, Approximation, and Optimization. The root finding methods implemented in the project include Bisection Method, Newton-Raphson Method, Secant Method, and the False Position Method. These methods are used to find the roots of a given function, which is a crucial step in solving many mathematical problems.
+The project also includes interpolation methods such as Lagrange Interpolation and Newton's Divided Difference. These methods are used to estimate the value of a function at a given point, based on a set of known data points. Additionally, the project implements approximation methods such as Least Square Approximation, which is used to fit a function to a set of data points.
+The project also includes optimization methods such as the Golden Section Method and the Newton-Raphson Method for unconstrained optimization. These methods are used to find the maximum or minimum of a given function.
+One of the key features of this project is the use of clear, well-commented code that is easy to understand and follow. The project is well-documented, with detailed explanations of each method, its usage and limitations. In addition, the project includes a number of test cases and examples to help users understand how to use the methods and to ensure that the implementation is correct.
+Overall, "numerical-methods" is an excellent resource for students and professionals studying or working in the field of Numerical Analysis. It provides a solid foundation in the theoretical concepts of numerical methods and their practical implementation, making it an essential tool for anyone looking to gain a deeper understanding of these methods.
+
 ![Figure_1](https://user-images.githubusercontent.com/114832681/208186395-c2720de7-c156-4820-9650-b2669e9bfca4.png)
 ![gradient](https://user-images.githubusercontent.com/114832681/211622505-9099a759-e9bc-4b6b-85fb-cb13e39d507f.png)
